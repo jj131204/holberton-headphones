@@ -1,6 +1,21 @@
 :root{
     --color-letras:#FFFFFF;
     --tipo-letras:"Source Sans Pro";
+    --red-color:#FF6565;
+    --color-letras-negro:#071629;
+}
+
+
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 *{
@@ -92,6 +107,7 @@ header{
 }
 .container .p1{
     margin:10px 2%;
+
     font-size:32px;
 }
 
@@ -117,6 +133,7 @@ header{
     font-size:16px;
     margin:10px 2%;
     margin-top:45px;
+   
 }
 
 @media (min-width:600px) {
@@ -153,33 +170,103 @@ header{
 
 @media (min-width:768px) {
 
-    .navicon div{
-        display:none;
-    }
+.container .p1{
+    margin:10px 25%;
+}
+.container .p3{
+    margin:10px 25%;
+}
 
-    .navbarMenu{
+.navicon div{
+        display:none;
+}
+.navbarMenu{
         display:flex;
         align-items: right;
         justify-content: right;
         margin-right:12vw;
         margin-top:-55px;
-    }
+}
 
-    .navbarMenu li{
+.navbarMenu li{
     display:inline-block;
-    }
+}
 
 
-    .headerLogo {
+.headerLogo {
         align-items: left;
         justify-content: left;
         margin-left:12vw;
     }
+}
+/*punto2*/
 
-    .container .p1{
-        margin:10px 25%;
-    }
-    .container .p3{
-        margin:10px 25%;
+[class^="icons-"]{
+    font-family: 'holberton_school-icon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 100px;
+    color: var(--red-color);
+}
+
+.WhatWeDo p{
+    color: var(--color-letras-negro);
+    text-align: center;
+    margin:15vh 5%;
+}
+
+
+.iconsWhatWeDo{
+    display:grid;
+    grid-template-columns:1fr;
+    margin:10px  10vw;
+}
+
+.divIcons{
+    text-align:center;
+}
+
+.divIcons p{
+    color: var(--color-letras-negro);
+    margin-top:68px;
+    font-size:14px;
+    margin:68px 25%;
+}
+
+
+.icons-sound:before{
+    content: "\e90e";
+}
+.icons-video:before{
+    content: "\e910";
+}
+.icons-music:before{
+    content: "\e90d";
+}
+.icons-listen:before{
+    content: "\e909";
+}
+
+@media (min-width:600px) {
+    .iconsWhatWeDo{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        margin:10px  10vw;
     }
 }
+
+
+@media (min-width:768px) {
+    .iconsWhatWeDo{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        margin:10px  10vw;
+    }
+
+
+}
+
