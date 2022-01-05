@@ -213,6 +213,10 @@ header{
     color: var(--red-color);
 }
 
+.WhatWeDo{
+    height:100%;
+}
+
 .WhatWeDo p{
     color: var(--color-letras-negro);
     text-align: center;
@@ -267,6 +271,10 @@ header{
         margin:10px  10vw;
     }
 
+    
+    .WhatWeDo p{
+        margin:15vh 25%;
+    }
 
 }
 

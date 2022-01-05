@@ -361,3 +361,58 @@ header{
     
     }
 }
+
+
+/*--------------------------------punto 4----------------------------------------------
+----------------------------------------------------------------------------------------*/
+
+.contactUs{
+    width:100%;
+    text-align: center;
+}
+
+.contactUs h1{
+    text-align: center;
+    color: var(--color-letras-negro);
+    margin-top:30px;
+    font-size:36px;
+    align-items: center;
+}
+
+.form{
+    width: 340px;
+    margin: 50px auto;
+}
+
+.optionsContact h4{
+    margin-top:20px;
+    margin-bottom: 10px;
+    text-align:left;
+    font-size: 20px;
+}
+
+.optionsContact input,
+.optionsContact textarea{
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--red-color) ;
+    width:340px;
+    height:45px;
+
+}
+
+
+.optionsContact input::placeholder,
+.optionsContact textarea::placeholder{
+    color:var(--color-letras-negro);
+    font-size: 15px;
+    padding-left:10px;
+}
+
+.contactUs .button{
+    margin-top:-10px;
+}
+
+
