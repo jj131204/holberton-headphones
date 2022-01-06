@@ -5,7 +5,7 @@ You won’t have a lot of instruction, you are free to implement it the way that
 
 #Here the final result:
 
-Headphones-desktop  
+
 ### Requirements
 
   * you are not allowed to import external CSS framework (like Bootstrap)
