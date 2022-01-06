@@ -222,6 +222,13 @@ header{
     height:100%;
 }
 
+.WhatWeDo h1{
+    text-align: center;
+    color:var(--color-letras-negro);
+    font-size:36px;
+    margin-top:30px;
+}
+
 .WhatWeDo p{
     color: var(--color-letras-negro);
     text-align: center;
@@ -293,6 +300,13 @@ header{
 #Our-results_{
     background:url("images/headphones_hero_2.jpg");
     background-size: cover;
+}
+
+.text h1{
+    text-align: center;
+    color:var(--color-letras);
+    font-size:36px;
+    margin-bottom:60px;
 }
 
 .text{

@@ -3,6 +3,7 @@
     --tipo-letras:"Source Sans Pro";
     --red-color:#FF6565;
     --color-letras-negro:#071629;
+    --fondo-footer:#071629;
 }
 
 
@@ -430,3 +431,106 @@ header{
 }
 
 
+/*--------------------------------- punto 5----------------------------------------
+--------------------------------------------------------------------------------------*/
+
+
+footer{
+    width:100%;
+    height:249px;
+    background-color:var(--fondo-footer);
+}
+
+
+
+.div-logo-redes{
+    display:grid;
+    grid-template-columns:1fr;
+    padding: 5vh 70px;
+}
+
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter img{
+    width:161px;
+    height:31px;
+}
+.redesFooter{
+    margin: 15px;
+    display:flex;
+    justify-content: center;
+}
+.redesFooter div{
+    padding: 15px;
+}
+
+.autorFooter{
+    color: var(--color-letras);
+    text-align: center;
+}
+
+@media (min-width:600px) {
+    .div-logo-redes{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        padding: 5vh 70px;
+    }
+
+    .logoFooter{
+        justify-content: left;
+       
+    }
+
+    .redesFooter{
+        justify-content: right;
+    }
+
+}
+
+
+@media (min-width:768px) {
+    .div-logo-redes{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        padding: 5vh 200px;
+    }
+
+}
+
+
+/*.div-logo-redes{
+    display:grid;
+    grid-template-columns:1fr;
+    padding: 7vh 70px;
+}
+
+.logoFooter{
+    padding: 15px;
+    padding-left: 20%;
+}
+
+.logoFooter img{
+    
+    width:161px;
+    height:31px;
+}
+.redesFooter{
+    margin: 15px;
+    margin-right: 20%;
+    margin-left: auto;
+    padding-left: 10%;
+    display: flex;
+}
+.redesFooter img{
+    padding-left: 30px;
+}
+
+.autorFooter{
+    color: var(--color-letras);
+    text-align: center;
+    margin-top:30px;
+}*/
