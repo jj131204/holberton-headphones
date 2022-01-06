@@ -5,7 +5,7 @@ You won’t have a lot of instruction, you are free to implement it the way that
 
 #Here the final result:
 
-<img alt="holberton-headphones" height="350px" src="https://github.com/jj131204/holberton-headphones/blob/main/images/holberton-headphones.jpg" />
+<img alt="holberton-headphones"  src="https://github.com/jj131204/holberton-headphones/blob/main/images/holberton-headphones.jpg" />
 
 
 ### Requirements
